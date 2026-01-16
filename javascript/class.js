@@ -14,9 +14,16 @@ class School {
   }
 }
 
-let uni = new School("BSU", "lea", "gsss")
-console.log(uni)
+//assignment
 
+
+
+
+
+
+
+let uni = new School("BSU".toLowerCase(), "lea".toUpperCase(), ["gss"])
+console.log(uni)
 
 
 let car1 = new Car("Honda")
